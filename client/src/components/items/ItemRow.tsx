@@ -33,7 +33,7 @@ interface Props {
 
 export function ItemRow({ item, onEdit, onDelete }: Props) {
   return (
-    <tr>
+    <>
       <td>{item.name}</td>
       <td>{item.description || <span style={{ opacity: 0.5 }}>—</span>}</td>
       <td>
@@ -60,6 +60,6 @@ export function ItemRow({ item, onEdit, onDelete }: Props) {
           </IconButton>
         </Actions>
       </td>
-    </tr>
+    </>
   );
 }
