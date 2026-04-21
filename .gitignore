@@ -11,6 +11,9 @@ build/
 .env.local
 .env.*.local
 
+# Local agent / editor state
+.claude/
+
 # Editor / OS
 .vscode/
 .idea/

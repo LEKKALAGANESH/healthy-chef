@@ -75,13 +75,13 @@ Confirm it's public and the README + code are visible.
 
 **Script (60-second pacing):**
 
-| Time | What to show |
-|---|---|
-| 0:00-0:12 | Terminal `npm run dev` — both server + client start. Point out `✅ MongoDB connected` |
-| 0:12-0:28 | Items page — create 3 items (salad, rice, juice) with variants + prices |
-| 0:28-0:48 | New Invoice — fill customer, add 3 lines, change qty/GST/discount and show row totals + summary totals updating live |
-| 0:48-1:02 | Click Save → click Download PDF → open the PDF, scroll through it (show ₹ rendering, T&Cs at bottom) |
-| 1:02-1:12 | History tab → click Details → Download PDF again |
+| Time      | What to show                                                                                                                                                                                                                                                                      |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 0:00-0:12 | Terminal `npm run dev` — both server + client start. Point out `✅ MongoDB connected`                                                                                                                                                                                             |
+| 0:12-0:28 | Items page — create 3 items (salad, rice, juice) with variants + prices                                                                                                                                                                                                           |
+| 0:28-0:48 | New Invoice — fill customer, add 3 lines, change qty/GST/discount and show row totals + summary totals updating live                                                                                                                                                              |
+| 0:48-1:02 | Click Save → click Download PDF → open the PDF, scroll through it (show ₹ rendering, T&Cs at bottom)                                                                                                                                                                              |
+| 1:02-1:12 | History tab → click Details → Download PDF again                                                                                                                                                                                                                                  |
 | 1:12-1:58 | VSCode scroll: `server/src/models/Invoice.ts`, `server/src/services/invoiceCalc.ts`, `client/src/components/pdf/InvoicePDFDocument.tsx`, `client/src/components/invoice/LineItemRow.tsx`. Mention "31 server tests + 9 client tests all green" and show `npm test` output briefly |
 
 Export as MP4. Upload to Google Drive or YouTube (unlisted). Copy the shareable link.
