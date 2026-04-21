@@ -110,5 +110,5 @@ export const pdfStyles = StyleSheet.create({
     fontSize: 9,
     color: COLORS.textMuted,
   },
-  thanks: { marginTop: 8, fontStyle: 'italic', color: COLORS.accent },
+  thanks: { marginTop: 8, fontWeight: 'bold', color: COLORS.accent },
 });
